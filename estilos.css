@@ -1,0 +1,70 @@
+/* Estilos generales para centrar todo en la pantalla */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Caja principal (Tarjeta) */
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Estilo del número contador */
+#contador {
+    font-size: 48px;
+    font-weight: bold;
+    color: #007bff;
+    margin: 20px 0;
+}
+
+/* Contenedor de botones */
+.botones {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Estilo de los botones */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.reset {
+    background-color: #dc3545;
+}
+
+button.reset:hover {
+    background-color: #a71d2a;
+}
